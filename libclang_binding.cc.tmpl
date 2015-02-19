@@ -1,0 +1,36 @@
+#include <vector>
+#include <string>
+#include <memory>
+#include <iostream>
+
+#include <nan.h>
+#include <v8.h>
+#include <node_buffer.h>
+#include <libclang_binding.h>
+
+using namespace v8;
+
+namespace libclang {
+
+Persistent<FunctionTemplate> _handle_template;
+Persistent<Function> _handle_constructor;
+
+NAN_WEAK_CALLBACK(cleanup_ptr) {
+  delete reinterpret_cast<P*>(data.GetParameter());
+}
+
+${methods}
+
+void InitAll(Handle<Object> exports) {
+  auto tmpl = NanNew<FunctionTemplate>();
+  tmpl->SetClassName(NanNew<String>("Handle"));
+  tmpl->InstanceTemplate()->SetInternalFieldCount(1);
+  NanAssignPersistent(_handle_template, tmpl);
+  NanAssignPersistent(_handle_constructor, tmpl->GetFunction());
+
+  ${exports}
+}
+
+}
+
+NODE_MODULE(libclang, libclang::InitAll)
