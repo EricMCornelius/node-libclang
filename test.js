@@ -2,23 +2,23 @@
 
 var clang = require('./index');
 
-var ctx = clang.clang_createIndex(false, true);
-var tu = clang.clang_parseTranslationUnit(ctx, 'test.cpp', [], 0);
-var file = clang.clang_getFile(tu, 'test.cpp');
-var name = clang.clang_getFileName(file);
-var str = clang.clang_getCString(name);
+var ctx = clang.createIndex(false, true);
+var tu = clang.parseTranslationUnit(ctx, 'test.cpp', [], 0);
+var file = clang.getFile(tu, 'test.cpp');
+var name = clang.getFileName(file);
+var str = clang.getCString(name);
 console.log(str);
-clang.clang_disposeString(name);
+clang.disposeString(name);
 
-var cursor = clang.clang_getTranslationUnitCursor(tu);
-var spelling = clang.clang_getCursorSpelling(cursor);
-str = clang.clang_getCString(spelling);
+var cursor = clang.getTranslationUnitCursor(tu);
+var spelling = clang.getCursorSpelling(cursor);
+str = clang.getCString(spelling);
 console.log(str);
-clang.clang_disposeString(spelling);
+clang.disposeString(spelling);
 
 /*
-  clang_visitChildren(clang_getTranslationUnitCursor(tu), visitor, nullptr);
+  visitChildren(getTranslationUnitCursor(tu), visitor, nullptr);
 
-  clang_disposeTranslationUnit(tu);
-  clang_disposeIndex(ctx);
+  disposeTranslationUnit(tu);
+  disposeIndex(ctx);
 */
