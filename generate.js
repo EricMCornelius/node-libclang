@@ -23,7 +23,17 @@ function getType(t) {
     return 'complex';
   }
   if (t.type) {
-    return getType(t.type);
+    var subtype = getType(t.type);
+    if (t.kind === 105) {
+      return 'struct ' + subtype;
+    }
+    if (t.kind === 106) {
+      return 'enum ' + subtype;
+    }
+    if (t.kind === 111) {
+      return 'fptr ' + subtype;
+    }
+    return subtype;
   }
   return t;
 }

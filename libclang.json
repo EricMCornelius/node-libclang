@@ -43,8 +43,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXString",
-              "kind": 1
+              "type": "CXString",
+              "kind": 105
             },
             "name": "CXString",
             "typedef": true,
@@ -74,8 +74,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXString",
-              "kind": 1
+              "type": "CXString",
+              "kind": 105
             },
             "name": "CXString",
             "typedef": true,
@@ -255,8 +255,8 @@
       "name": "clang_getFileName",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -326,8 +326,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXFileUniqueID",
-                "kind": 1
+                "type": "CXFileUniqueID",
+                "kind": 105
               },
               "name": "CXFileUniqueID",
               "typedef": true,
@@ -356,8 +356,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -402,8 +402,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -456,8 +456,8 @@
       "name": "clang_getNullLocation",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -470,8 +470,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -482,8 +482,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -509,8 +509,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -559,8 +559,8 @@
       "name": "clang_getLocation",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -574,8 +574,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -617,8 +617,8 @@
       "name": "clang_getLocationForOffset",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -631,8 +631,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -657,8 +657,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -687,8 +687,8 @@
       "name": "clang_getNullRange",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -701,8 +701,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -713,8 +713,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -730,8 +730,8 @@
       "name": "clang_getRange",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -744,8 +744,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceRange",
-              "kind": 1
+              "type": "CXSourceRange",
+              "kind": 105
             },
             "name": "CXSourceRange",
             "typedef": true,
@@ -756,8 +756,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceRange",
-              "kind": 1
+              "type": "CXSourceRange",
+              "kind": 105
             },
             "name": "CXSourceRange",
             "typedef": true,
@@ -782,8 +782,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceRange",
-              "kind": 1
+              "type": "CXSourceRange",
+              "kind": 105
             },
             "name": "CXSourceRange",
             "typedef": true,
@@ -808,8 +808,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -887,8 +887,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -900,8 +900,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXString",
-                "kind": 1
+                "type": "CXString",
+                "kind": 105
               },
               "name": "CXString",
               "typedef": true,
@@ -951,8 +951,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -1030,8 +1030,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -1109,8 +1109,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -1188,8 +1188,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceRange",
-              "kind": 1
+              "type": "CXSourceRange",
+              "kind": 105
             },
             "name": "CXSourceRange",
             "typedef": true,
@@ -1205,8 +1205,8 @@
       "name": "clang_getRangeStart",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -1219,8 +1219,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceRange",
-              "kind": 1
+              "type": "CXSourceRange",
+              "kind": 105
             },
             "name": "CXSourceRange",
             "typedef": true,
@@ -1236,8 +1236,8 @@
       "name": "clang_getRangeEnd",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -1251,8 +1251,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -1288,8 +1288,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXSourceRangeList",
-            "kind": 1
+            "type": "CXSourceRangeList",
+            "kind": 105
           },
           "name": "CXSourceRangeList",
           "typedef": true,
@@ -1306,8 +1306,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXSourceRangeList",
-                "kind": 1
+                "type": "CXSourceRangeList",
+                "kind": 105
               },
               "name": "CXSourceRangeList",
               "typedef": true,
@@ -1423,8 +1423,8 @@
         {
           "type": {
             "type": {
-              "type": "enum CXLoadDiag_Error",
-              "kind": 1
+              "type": "CXLoadDiag_Error",
+              "kind": 106
             },
             "pointer": true,
             "kind": 101
@@ -1435,8 +1435,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXString",
-                "kind": 1
+                "type": "CXString",
+                "kind": 105
               },
               "name": "CXString",
               "typedef": true,
@@ -1543,8 +1543,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -1573,8 +1573,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -1619,8 +1619,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -1715,8 +1715,8 @@
       "name": "clang_formatDiagnostic",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -1762,8 +1762,8 @@
       },
       "name": "clang_getDiagnosticSeverity",
       "result": {
-        "type": "enum CXDiagnosticSeverity",
-        "kind": 1
+        "type": "CXDiagnosticSeverity",
+        "kind": 106
       },
       "full": "clang_getDiagnosticSeverity(CXDiagnostic)"
     },
@@ -1793,8 +1793,8 @@
       "name": "clang_getDiagnosticLocation",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -1828,8 +1828,8 @@
       "name": "clang_getDiagnosticSpelling",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -1859,8 +1859,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXString",
-                "kind": 1
+                "type": "CXString",
+                "kind": 105
               },
               "name": "CXString",
               "typedef": true,
@@ -1879,8 +1879,8 @@
       "name": "clang_getDiagnosticOption",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -1935,8 +1935,8 @@
       "name": "clang_getDiagnosticCategoryName",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -1970,8 +1970,8 @@
       "name": "clang_getDiagnosticCategoryText",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -2042,8 +2042,8 @@
       "name": "clang_getDiagnosticRange",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -2110,8 +2110,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXSourceRange",
-                "kind": 1
+                "type": "CXSourceRange",
+                "kind": 105
               },
               "name": "CXSourceRange",
               "typedef": true,
@@ -2130,8 +2130,8 @@
       "name": "clang_getDiagnosticFixIt",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -2145,8 +2145,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2165,8 +2165,8 @@
       "name": "clang_getTranslationUnitSpelling",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -2238,8 +2238,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXUnsavedFile",
-              "kind": 1
+              "type": "CXUnsavedFile",
+              "kind": 105
             },
             "pointer": true,
             "kind": 101
@@ -2255,8 +2255,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXTranslationUnitImpl",
-            "kind": 1
+            "type": "CXTranslationUnitImpl",
+            "kind": 105
           },
           "pointer": true,
           "kind": 101
@@ -2306,8 +2306,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXTranslationUnitImpl",
-            "kind": 1
+            "type": "CXTranslationUnitImpl",
+            "kind": 105
           },
           "pointer": true,
           "kind": 101
@@ -2353,8 +2353,8 @@
             "type": {
               "type": {
                 "type": {
-                  "type": "struct CXTranslationUnitImpl",
-                  "kind": 1
+                  "type": "CXTranslationUnitImpl",
+                  "kind": 105
                 },
                 "pointer": true,
                 "kind": 101
@@ -2375,8 +2375,8 @@
       },
       "name": "clang_createTranslationUnit2",
       "result": {
-        "type": "enum CXErrorCode",
-        "kind": 1
+        "type": "CXErrorCode",
+        "kind": 106
       },
       "full": "clang_createTranslationUnit2(CXIndex, const char *, CXTranslationUnit *)"
     },
@@ -2450,8 +2450,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXUnsavedFile",
-              "kind": 1
+              "type": "CXUnsavedFile",
+              "kind": 105
             },
             "pointer": true,
             "kind": 101
@@ -2481,8 +2481,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXTranslationUnitImpl",
-            "kind": 1
+            "type": "CXTranslationUnitImpl",
+            "kind": 105
           },
           "pointer": true,
           "kind": 101
@@ -2550,8 +2550,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXUnsavedFile",
-              "kind": 1
+              "type": "CXUnsavedFile",
+              "kind": 105
             },
             "pointer": true,
             "kind": 101
@@ -2577,8 +2577,8 @@
             "type": {
               "type": {
                 "type": {
-                  "type": "struct CXTranslationUnitImpl",
-                  "kind": 1
+                  "type": "CXTranslationUnitImpl",
+                  "kind": 105
                 },
                 "pointer": true,
                 "kind": 101
@@ -2599,8 +2599,8 @@
       },
       "name": "clang_parseTranslationUnit2",
       "result": {
-        "type": "enum CXErrorCode",
-        "kind": 1
+        "type": "CXErrorCode",
+        "kind": 106
       },
       "full": "clang_parseTranslationUnit2(CXIndex, const char *, const char *const *, int, struct CXUnsavedFile *, unsigned int, unsigned int, CXTranslationUnit *)"
     },
@@ -2610,8 +2610,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2640,8 +2640,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2689,8 +2689,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2719,8 +2719,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2749,8 +2749,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2771,8 +2771,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXUnsavedFile",
-              "kind": 1
+              "type": "CXUnsavedFile",
+              "kind": 105
             },
             "pointer": true,
             "kind": 101
@@ -2802,8 +2802,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXTUResourceUsageKind",
-            "kind": 1
+            "type": "CXTUResourceUsageKind",
+            "kind": 106
           },
           "name": "kind"
         }
@@ -2830,8 +2830,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2850,8 +2850,8 @@
       "name": "clang_getCXTUResourceUsage",
       "result": {
         "type": {
-          "type": "struct CXTUResourceUsage",
-          "kind": 1
+          "type": "CXTUResourceUsage",
+          "kind": 105
         },
         "name": "CXTUResourceUsage",
         "typedef": true,
@@ -2864,8 +2864,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXTUResourceUsage",
-              "kind": 1
+              "type": "CXTUResourceUsage",
+              "kind": 105
             },
             "name": "CXTUResourceUsage",
             "typedef": true,
@@ -2894,8 +2894,8 @@
       "name": "clang_getNullCursor",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -2909,8 +2909,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -2929,8 +2929,8 @@
       "name": "clang_getTranslationUnitCursor",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -2943,8 +2943,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -2955,8 +2955,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -2981,8 +2981,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3007,8 +3007,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3033,8 +3033,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3049,8 +3049,8 @@
       },
       "name": "clang_getCursorKind",
       "result": {
-        "type": "enum CXCursorKind",
-        "kind": 1
+        "type": "CXCursorKind",
+        "kind": 106
       },
       "full": "clang_getCursorKind(CXCursor)"
     },
@@ -3058,8 +3058,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3079,8 +3079,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3100,8 +3100,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3121,8 +3121,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3142,8 +3142,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3163,8 +3163,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3184,8 +3184,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3205,8 +3205,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3226,8 +3226,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": ""
         }
@@ -3248,8 +3248,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3264,8 +3264,8 @@
       },
       "name": "clang_getCursorLinkage",
       "result": {
-        "type": "enum CXLinkageKind",
-        "kind": 1
+        "type": "CXLinkageKind",
+        "kind": 106
       },
       "full": "clang_getCursorLinkage(CXCursor)"
     },
@@ -3274,8 +3274,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3290,8 +3290,8 @@
       },
       "name": "clang_getCursorAvailability",
       "result": {
-        "type": "enum CXAvailabilityKind",
-        "kind": 1
+        "type": "CXAvailabilityKind",
+        "kind": 106
       },
       "full": "clang_getCursorAvailability(CXCursor)"
     },
@@ -3300,8 +3300,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3324,8 +3324,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXString",
-                "kind": 1
+                "type": "CXString",
+                "kind": 105
               },
               "name": "CXString",
               "typedef": true,
@@ -3351,8 +3351,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXString",
-                "kind": 1
+                "type": "CXString",
+                "kind": 105
               },
               "name": "CXString",
               "typedef": true,
@@ -3367,8 +3367,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXPlatformAvailability",
-                "kind": 1
+                "type": "CXPlatformAvailability",
+                "kind": 105
               },
               "name": "CXPlatformAvailability",
               "typedef": true,
@@ -3404,8 +3404,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXPlatformAvailability",
-                "kind": 1
+                "type": "CXPlatformAvailability",
+                "kind": 105
               },
               "name": "CXPlatformAvailability",
               "typedef": true,
@@ -3433,8 +3433,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3449,8 +3449,8 @@
       },
       "name": "clang_getCursorLanguage",
       "result": {
-        "type": "enum CXLanguageKind",
-        "kind": 1
+        "type": "CXLanguageKind",
+        "kind": 106
       },
       "full": "clang_getCursorLanguage(CXCursor)"
     },
@@ -3459,8 +3459,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3477,8 +3477,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXTranslationUnitImpl",
-            "kind": 1
+            "type": "CXTranslationUnitImpl",
+            "kind": 105
           },
           "pointer": true,
           "kind": 101
@@ -3499,8 +3499,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXCursorSetImpl",
-            "kind": 1
+            "type": "CXCursorSetImpl",
+            "kind": 105
           },
           "pointer": true,
           "kind": 101
@@ -3517,8 +3517,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCursorSetImpl",
-                "kind": 1
+                "type": "CXCursorSetImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -3547,8 +3547,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCursorSetImpl",
-                "kind": 1
+                "type": "CXCursorSetImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -3562,8 +3562,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3589,8 +3589,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCursorSetImpl",
-                "kind": 1
+                "type": "CXCursorSetImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -3604,8 +3604,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3630,8 +3630,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3647,8 +3647,8 @@
       "name": "clang_getCursorSemanticParent",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -3661,8 +3661,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3678,8 +3678,8 @@
       "name": "clang_getCursorLexicalParent",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -3692,8 +3692,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3706,8 +3706,8 @@
             "type": {
               "type": {
                 "type": {
-                  "type": "struct CXCursor",
-                  "kind": 1
+                  "type": "CXCursor",
+                  "kind": 105
                 },
                 "name": "CXCursor",
                 "typedef": true,
@@ -3750,8 +3750,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCursor",
-                "kind": 1
+                "type": "CXCursor",
+                "kind": 105
               },
               "name": "CXCursor",
               "typedef": true,
@@ -3779,8 +3779,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3815,8 +3815,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -3830,8 +3830,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceLocation",
-              "kind": 1
+              "type": "CXSourceLocation",
+              "kind": 105
             },
             "name": "CXSourceLocation",
             "typedef": true,
@@ -3847,8 +3847,8 @@
       "name": "clang_getCursor",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -3861,8 +3861,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3878,8 +3878,8 @@
       "name": "clang_getCursorLocation",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -3892,8 +3892,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3909,8 +3909,8 @@
       "name": "clang_getCursorExtent",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -3923,8 +3923,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -3940,8 +3940,8 @@
       "name": "clang_getCursorType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -3954,8 +3954,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -3971,8 +3971,8 @@
       "name": "clang_getTypeSpelling",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -3985,8 +3985,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4002,8 +4002,8 @@
       "name": "clang_getTypedefDeclUnderlyingType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4016,8 +4016,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4033,8 +4033,8 @@
       "name": "clang_getEnumDeclIntegerType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4047,8 +4047,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4073,8 +4073,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4099,8 +4099,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4125,8 +4125,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4151,8 +4151,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4175,8 +4175,8 @@
       "name": "clang_Cursor_getArgument",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -4189,8 +4189,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4201,8 +4201,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4227,8 +4227,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4244,8 +4244,8 @@
       "name": "clang_getCanonicalType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4258,8 +4258,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4284,8 +4284,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4310,8 +4310,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4336,8 +4336,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4353,8 +4353,8 @@
       "name": "clang_getPointeeType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4367,8 +4367,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4384,8 +4384,8 @@
       "name": "clang_getTypeDeclaration",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -4398,8 +4398,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4415,8 +4415,8 @@
       "name": "clang_getDeclObjCTypeEncoding",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -4428,8 +4428,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXTypeKind",
-            "kind": 1
+            "type": "CXTypeKind",
+            "kind": 106
           },
           "name": "K"
         }
@@ -4441,8 +4441,8 @@
       "name": "clang_getTypeKindSpelling",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -4455,8 +4455,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4471,8 +4471,8 @@
       },
       "name": "clang_getFunctionTypeCallingConv",
       "result": {
-        "type": "enum CXCallingConv",
-        "kind": 1
+        "type": "CXCallingConv",
+        "kind": 106
       },
       "full": "clang_getFunctionTypeCallingConv(CXType)"
     },
@@ -4481,8 +4481,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4498,8 +4498,8 @@
       "name": "clang_getResultType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4512,8 +4512,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4538,8 +4538,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4562,8 +4562,8 @@
       "name": "clang_getArgType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4576,8 +4576,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4602,8 +4602,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -4619,8 +4619,8 @@
       "name": "clang_getCursorResultType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4633,8 +4633,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4659,8 +4659,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4676,8 +4676,8 @@
       "name": "clang_getElementType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4690,8 +4690,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4716,8 +4716,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4733,8 +4733,8 @@
       "name": "clang_getArrayElementType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4747,8 +4747,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4773,8 +4773,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4799,8 +4799,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4816,8 +4816,8 @@
       "name": "clang_Type_getClassType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4830,8 +4830,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4856,8 +4856,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4894,8 +4894,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4920,8 +4920,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4944,8 +4944,8 @@
       "name": "clang_Type_getTemplateArgumentAsType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -4958,8 +4958,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXType",
-              "kind": 1
+              "type": "CXType",
+              "kind": 105
             },
             "name": "CXType",
             "typedef": true,
@@ -4974,8 +4974,8 @@
       },
       "name": "clang_Type_getCXXRefQualifier",
       "result": {
-        "type": "enum CXRefQualifierKind",
-        "kind": 1
+        "type": "CXRefQualifierKind",
+        "kind": 106
       },
       "full": "clang_Type_getCXXRefQualifier(CXType)"
     },
@@ -4984,8 +4984,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5010,8 +5010,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5036,8 +5036,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5052,8 +5052,8 @@
       },
       "name": "clang_getCXXAccessSpecifier",
       "result": {
-        "type": "enum CX_CXXAccessSpecifier",
-        "kind": 1
+        "type": "CX_CXXAccessSpecifier",
+        "kind": 106
       },
       "full": "clang_getCXXAccessSpecifier(CXCursor)"
     },
@@ -5062,8 +5062,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5088,8 +5088,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5112,8 +5112,8 @@
       "name": "clang_getOverloadedDecl",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -5126,8 +5126,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5143,8 +5143,8 @@
       "name": "clang_getIBOutletCollectionType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -5157,8 +5157,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5170,8 +5170,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "enum CXChildVisitResult (CXCursor, CXCursor, CXClientData)",
-                "kind": 1
+                "type": "enum CXChildVisitResult (CXCursor, CXCursor, void *)",
+                "kind": 111
               },
               "pointer": true,
               "kind": 101
@@ -5215,8 +5215,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5232,8 +5232,8 @@
       "name": "clang_getCursorUSR",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5263,8 +5263,8 @@
       "name": "clang_constructUSR_ObjCClass",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5306,8 +5306,8 @@
       "name": "clang_constructUSR_ObjCCategory",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5337,8 +5337,8 @@
       "name": "clang_constructUSR_ObjCProtocol",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5363,8 +5363,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXString",
-              "kind": 1
+              "type": "CXString",
+              "kind": 105
             },
             "name": "CXString",
             "typedef": true,
@@ -5380,8 +5380,8 @@
       "name": "clang_constructUSR_ObjCIvar",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5413,8 +5413,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXString",
-              "kind": 1
+              "type": "CXString",
+              "kind": 105
             },
             "name": "CXString",
             "typedef": true,
@@ -5430,8 +5430,8 @@
       "name": "clang_constructUSR_ObjCMethod",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5456,8 +5456,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXString",
-              "kind": 1
+              "type": "CXString",
+              "kind": 105
             },
             "name": "CXString",
             "typedef": true,
@@ -5473,8 +5473,8 @@
       "name": "clang_constructUSR_ObjCProperty",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5487,8 +5487,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5504,8 +5504,8 @@
       "name": "clang_getCursorSpelling",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5518,8 +5518,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5549,8 +5549,8 @@
       "name": "clang_Cursor_getSpellingNameRange",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -5563,8 +5563,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5580,8 +5580,8 @@
       "name": "clang_getCursorDisplayName",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5594,8 +5594,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5611,8 +5611,8 @@
       "name": "clang_getCursorReferenced",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -5625,8 +5625,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5642,8 +5642,8 @@
       "name": "clang_getCursorDefinition",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -5656,8 +5656,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5682,8 +5682,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5699,8 +5699,8 @@
       "name": "clang_getCanonicalCursor",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -5713,8 +5713,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5739,8 +5739,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5765,8 +5765,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5782,8 +5782,8 @@
       "name": "clang_Cursor_getReceiverType",
       "result": {
         "type": {
-          "type": "struct CXType",
-          "kind": 1
+          "type": "CXType",
+          "kind": 105
         },
         "name": "CXType",
         "typedef": true,
@@ -5796,8 +5796,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5829,8 +5829,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5855,8 +5855,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5881,8 +5881,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5907,8 +5907,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5924,8 +5924,8 @@
       "name": "clang_Cursor_getCommentRange",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -5938,8 +5938,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5955,8 +5955,8 @@
       "name": "clang_Cursor_getRawCommentText",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -5969,8 +5969,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -5986,8 +5986,8 @@
       "name": "clang_Cursor_getBriefCommentText",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -6000,8 +6000,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6036,8 +6036,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6189,8 +6189,8 @@
       "name": "clang_Module_getName",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -6224,8 +6224,8 @@
       "name": "clang_Module_getFullName",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -6269,8 +6269,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6315,8 +6315,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6376,8 +6376,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6402,8 +6402,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6428,8 +6428,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6454,8 +6454,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6480,8 +6480,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6496,8 +6496,8 @@
       },
       "name": "clang_getTemplateCursorKind",
       "result": {
-        "type": "enum CXCursorKind",
-        "kind": 1
+        "type": "CXCursorKind",
+        "kind": 106
       },
       "full": "clang_getTemplateCursorKind(CXCursor)"
     },
@@ -6506,8 +6506,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6523,8 +6523,8 @@
       "name": "clang_getSpecializedCursorTemplate",
       "result": {
         "type": {
-          "type": "struct CXCursor",
-          "kind": 1
+          "type": "CXCursor",
+          "kind": 105
         },
         "name": "CXCursor",
         "typedef": true,
@@ -6537,8 +6537,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -6568,8 +6568,8 @@
       "name": "clang_getCursorReferenceNameRange",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -6582,8 +6582,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXToken",
-              "kind": 1
+              "type": "CXToken",
+              "kind": 105
             },
             "name": "CXToken",
             "typedef": true,
@@ -6599,8 +6599,8 @@
       "name": "clang_getTokenKind",
       "result": {
         "type": {
-          "type": "enum CXTokenKind",
-          "kind": 1
+          "type": "CXTokenKind",
+          "kind": 106
         },
         "name": "CXTokenKind",
         "typedef": true,
@@ -6614,8 +6614,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6629,8 +6629,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXToken",
-              "kind": 1
+              "type": "CXToken",
+              "kind": 105
             },
             "name": "CXToken",
             "typedef": true,
@@ -6646,8 +6646,8 @@
       "name": "clang_getTokenSpelling",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -6661,8 +6661,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6676,8 +6676,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXToken",
-              "kind": 1
+              "type": "CXToken",
+              "kind": 105
             },
             "name": "CXToken",
             "typedef": true,
@@ -6693,8 +6693,8 @@
       "name": "clang_getTokenLocation",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
@@ -6708,8 +6708,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6723,8 +6723,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXToken",
-              "kind": 1
+              "type": "CXToken",
+              "kind": 105
             },
             "name": "CXToken",
             "typedef": true,
@@ -6740,8 +6740,8 @@
       "name": "clang_getTokenExtent",
       "result": {
         "type": {
-          "type": "struct CXSourceRange",
-          "kind": 1
+          "type": "CXSourceRange",
+          "kind": 105
         },
         "name": "CXSourceRange",
         "typedef": true,
@@ -6755,8 +6755,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6770,8 +6770,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXSourceRange",
-              "kind": 1
+              "type": "CXSourceRange",
+              "kind": 105
             },
             "name": "CXSourceRange",
             "typedef": true,
@@ -6784,8 +6784,8 @@
             "type": {
               "type": {
                 "type": {
-                  "type": "struct CXToken",
-                  "kind": 1
+                  "type": "CXToken",
+                  "kind": 105
                 },
                 "name": "CXToken",
                 "typedef": true,
@@ -6828,8 +6828,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6844,8 +6844,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXToken",
-                "kind": 1
+                "type": "CXToken",
+                "kind": 105
               },
               "name": "CXToken",
               "typedef": true,
@@ -6867,8 +6867,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCursor",
-                "kind": 1
+                "type": "CXCursor",
+                "kind": 105
               },
               "name": "CXCursor",
               "typedef": true,
@@ -6897,8 +6897,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -6913,8 +6913,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXToken",
-                "kind": 1
+                "type": "CXToken",
+                "kind": 105
               },
               "name": "CXToken",
               "typedef": true,
@@ -6948,8 +6948,8 @@
       "args": [
         {
           "type": {
-            "type": "enum CXCursorKind",
-            "kind": 1
+            "type": "CXCursorKind",
+            "kind": 106
           },
           "name": "Kind"
         }
@@ -6961,8 +6961,8 @@
       "name": "clang_getCursorKindSpelling",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -6975,8 +6975,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -7091,7 +7091,7 @@
           "type": {
             "type": {
               "type": "void (void *)",
-              "kind": 1
+              "kind": 111
             },
             "pointer": true,
             "kind": 101
@@ -7160,8 +7160,8 @@
       },
       "name": "clang_getCompletionChunkKind",
       "result": {
-        "type": "enum CXCompletionChunkKind",
-        "kind": 1
+        "type": "CXCompletionChunkKind",
+        "kind": 106
       },
       "full": "clang_getCompletionChunkKind(CXCompletionString, unsigned int)"
     },
@@ -7198,8 +7198,8 @@
       "name": "clang_getCompletionChunkText",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -7338,8 +7338,8 @@
       },
       "name": "clang_getCompletionAvailability",
       "result": {
-        "type": "enum CXAvailabilityKind",
-        "kind": 1
+        "type": "CXAvailabilityKind",
+        "kind": 106
       },
       "full": "clang_getCompletionAvailability(CXCompletionString)"
     },
@@ -7406,8 +7406,8 @@
       "name": "clang_getCompletionAnnotation",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -7436,8 +7436,8 @@
         {
           "type": {
             "type": {
-              "type": "enum CXCursorKind",
-              "kind": 1
+              "type": "CXCursorKind",
+              "kind": 106
             },
             "pointer": true,
             "kind": 101
@@ -7452,8 +7452,8 @@
       "name": "clang_getCompletionParent",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -7487,8 +7487,8 @@
       "name": "clang_getCompletionBriefComment",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -7501,8 +7501,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -7550,8 +7550,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -7591,8 +7591,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXUnsavedFile",
-              "kind": 1
+              "type": "CXUnsavedFile",
+              "kind": 105
             },
             "pointer": true,
             "kind": 101
@@ -7622,8 +7622,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXCodeCompleteResults",
-            "kind": 1
+            "type": "CXCodeCompleteResults",
+            "kind": 105
           },
           "name": "CXCodeCompleteResults",
           "typedef": true,
@@ -7640,8 +7640,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCompletionResult",
-                "kind": 1
+                "type": "CXCompletionResult",
+                "kind": 105
               },
               "name": "CXCompletionResult",
               "typedef": true,
@@ -7677,8 +7677,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCodeCompleteResults",
-                "kind": 1
+                "type": "CXCodeCompleteResults",
+                "kind": 105
               },
               "name": "CXCodeCompleteResults",
               "typedef": true,
@@ -7707,8 +7707,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCodeCompleteResults",
-                "kind": 1
+                "type": "CXCodeCompleteResults",
+                "kind": 105
               },
               "name": "CXCodeCompleteResults",
               "typedef": true,
@@ -7737,8 +7737,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCodeCompleteResults",
-                "kind": 1
+                "type": "CXCodeCompleteResults",
+                "kind": 105
               },
               "name": "CXCodeCompleteResults",
               "typedef": true,
@@ -7783,8 +7783,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCodeCompleteResults",
-                "kind": 1
+                "type": "CXCodeCompleteResults",
+                "kind": 105
               },
               "name": "CXCodeCompleteResults",
               "typedef": true,
@@ -7813,8 +7813,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCodeCompleteResults",
-                "kind": 1
+                "type": "CXCodeCompleteResults",
+                "kind": 105
               },
               "name": "CXCodeCompleteResults",
               "typedef": true,
@@ -7843,8 +7843,8 @@
       },
       "name": "clang_codeCompleteGetContainerKind",
       "result": {
-        "type": "enum CXCursorKind",
-        "kind": 1
+        "type": "CXCursorKind",
+        "kind": 106
       },
       "full": "clang_codeCompleteGetContainerKind(CXCodeCompleteResults *, unsigned int *)"
     },
@@ -7854,8 +7854,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCodeCompleteResults",
-                "kind": 1
+                "type": "CXCodeCompleteResults",
+                "kind": 105
               },
               "name": "CXCodeCompleteResults",
               "typedef": true,
@@ -7874,8 +7874,8 @@
       "name": "clang_codeCompleteGetContainerUSR",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -7889,8 +7889,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXCodeCompleteResults",
-                "kind": 1
+                "type": "CXCodeCompleteResults",
+                "kind": 105
               },
               "name": "CXCodeCompleteResults",
               "typedef": true,
@@ -7909,8 +7909,8 @@
       "name": "clang_codeCompleteGetObjCSelector",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -7927,8 +7927,8 @@
       "name": "clang_getClangVersion",
       "result": {
         "type": {
-          "type": "struct CXString",
-          "kind": 1
+          "type": "CXString",
+          "kind": 105
         },
         "name": "CXString",
         "typedef": true,
@@ -7963,8 +7963,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -7979,8 +7979,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "void (CXFile, CXSourceLocation *, unsigned int, CXClientData)",
-                "kind": 1
+                "type": "void (void *, CXSourceLocation *, unsigned int, void *)",
+                "kind": 111
               },
               "pointer": true,
               "kind": 101
@@ -8159,8 +8159,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXString",
-                "kind": 1
+                "type": "CXString",
+                "kind": 105
               },
               "name": "CXString",
               "typedef": true,
@@ -8175,8 +8175,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXString",
-                "kind": 1
+                "type": "CXString",
+                "kind": 105
               },
               "name": "CXString",
               "typedef": true,
@@ -8234,8 +8234,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursor",
-              "kind": 1
+              "type": "CXCursor",
+              "kind": 105
             },
             "name": "CXCursor",
             "typedef": true,
@@ -8262,8 +8262,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursorAndRangeVisitor",
-              "kind": 1
+              "type": "CXCursorAndRangeVisitor",
+              "kind": 105
             },
             "name": "CXCursorAndRangeVisitor",
             "typedef": true,
@@ -8279,8 +8279,8 @@
       "name": "clang_findReferencesInFile",
       "result": {
         "type": {
-          "type": "enum CXResult",
-          "kind": 1
+          "type": "CXResult",
+          "kind": 106
         },
         "name": "CXResult",
         "typedef": true,
@@ -8294,8 +8294,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -8325,8 +8325,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXCursorAndRangeVisitor",
-              "kind": 1
+              "type": "CXCursorAndRangeVisitor",
+              "kind": 105
             },
             "name": "CXCursorAndRangeVisitor",
             "typedef": true,
@@ -8342,8 +8342,8 @@
       "name": "clang_findIncludesInFile",
       "result": {
         "type": {
-          "type": "enum CXResult",
-          "kind": 1
+          "type": "CXResult",
+          "kind": 106
         },
         "name": "CXResult",
         "typedef": true,
@@ -8356,8 +8356,8 @@
         {
           "type": {
             "type": {
-              "type": "enum CXIdxEntityKind",
-              "kind": 1
+              "type": "CXIdxEntityKind",
+              "kind": 106
             },
             "name": "CXIdxEntityKind",
             "typedef": true,
@@ -8383,8 +8383,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxDeclInfo",
-                "kind": 1
+                "type": "CXIdxDeclInfo",
+                "kind": 105
               },
               "name": "const CXIdxDeclInfo",
               "typedef": true,
@@ -8405,8 +8405,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXIdxObjCContainerDeclInfo",
-            "kind": 1
+            "type": "CXIdxObjCContainerDeclInfo",
+            "kind": 105
           },
           "name": "const CXIdxObjCContainerDeclInfo",
           "typedef": true,
@@ -8424,8 +8424,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxDeclInfo",
-                "kind": 1
+                "type": "CXIdxDeclInfo",
+                "kind": 105
               },
               "name": "const CXIdxDeclInfo",
               "typedef": true,
@@ -8446,8 +8446,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXIdxObjCInterfaceDeclInfo",
-            "kind": 1
+            "type": "CXIdxObjCInterfaceDeclInfo",
+            "kind": 105
           },
           "name": "const CXIdxObjCInterfaceDeclInfo",
           "typedef": true,
@@ -8465,8 +8465,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxDeclInfo",
-                "kind": 1
+                "type": "CXIdxDeclInfo",
+                "kind": 105
               },
               "name": "const CXIdxDeclInfo",
               "typedef": true,
@@ -8487,8 +8487,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXIdxObjCCategoryDeclInfo",
-            "kind": 1
+            "type": "CXIdxObjCCategoryDeclInfo",
+            "kind": 105
           },
           "name": "const CXIdxObjCCategoryDeclInfo",
           "typedef": true,
@@ -8506,8 +8506,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxDeclInfo",
-                "kind": 1
+                "type": "CXIdxDeclInfo",
+                "kind": 105
               },
               "name": "const CXIdxDeclInfo",
               "typedef": true,
@@ -8528,8 +8528,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXIdxObjCProtocolRefListInfo",
-            "kind": 1
+            "type": "CXIdxObjCProtocolRefListInfo",
+            "kind": 105
           },
           "name": "const CXIdxObjCProtocolRefListInfo",
           "typedef": true,
@@ -8547,8 +8547,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxDeclInfo",
-                "kind": 1
+                "type": "CXIdxDeclInfo",
+                "kind": 105
               },
               "name": "const CXIdxDeclInfo",
               "typedef": true,
@@ -8569,8 +8569,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXIdxObjCPropertyDeclInfo",
-            "kind": 1
+            "type": "CXIdxObjCPropertyDeclInfo",
+            "kind": 105
           },
           "name": "const CXIdxObjCPropertyDeclInfo",
           "typedef": true,
@@ -8588,8 +8588,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxAttrInfo",
-                "kind": 1
+                "type": "CXIdxAttrInfo",
+                "kind": 105
               },
               "name": "const CXIdxAttrInfo",
               "typedef": true,
@@ -8610,8 +8610,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXIdxIBOutletCollectionAttrInfo",
-            "kind": 1
+            "type": "CXIdxIBOutletCollectionAttrInfo",
+            "kind": 105
           },
           "name": "const CXIdxIBOutletCollectionAttrInfo",
           "typedef": true,
@@ -8629,8 +8629,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxDeclInfo",
-                "kind": 1
+                "type": "CXIdxDeclInfo",
+                "kind": 105
               },
               "name": "const CXIdxDeclInfo",
               "typedef": true,
@@ -8651,8 +8651,8 @@
       "result": {
         "type": {
           "type": {
-            "type": "struct CXIdxCXXClassDeclInfo",
-            "kind": 1
+            "type": "CXIdxCXXClassDeclInfo",
+            "kind": 105
           },
           "name": "const CXIdxCXXClassDeclInfo",
           "typedef": true,
@@ -8670,8 +8670,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxContainerInfo",
-                "kind": 1
+                "type": "CXIdxContainerInfo",
+                "kind": 105
               },
               "name": "const CXIdxContainerInfo",
               "typedef": true,
@@ -8710,8 +8710,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxContainerInfo",
-                "kind": 1
+                "type": "CXIdxContainerInfo",
+                "kind": 105
               },
               "name": "const CXIdxContainerInfo",
               "typedef": true,
@@ -8757,8 +8757,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxEntityInfo",
-                "kind": 1
+                "type": "CXIdxEntityInfo",
+                "kind": 105
               },
               "name": "const CXIdxEntityInfo",
               "typedef": true,
@@ -8797,8 +8797,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXIdxEntityInfo",
-                "kind": 1
+                "type": "CXIdxEntityInfo",
+                "kind": 105
               },
               "name": "const CXIdxEntityInfo",
               "typedef": true,
@@ -8945,8 +8945,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct IndexerCallbacks",
-                "kind": 1
+                "type": "IndexerCallbacks",
+                "kind": 105
               },
               "name": "IndexerCallbacks",
               "typedef": true,
@@ -9010,8 +9010,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXUnsavedFile",
-              "kind": 1
+              "type": "CXUnsavedFile",
+              "kind": 105
             },
             "pointer": true,
             "kind": 101
@@ -9030,8 +9030,8 @@
             "type": {
               "type": {
                 "type": {
-                  "type": "struct CXTranslationUnitImpl",
-                  "kind": 1
+                  "type": "CXTranslationUnitImpl",
+                  "kind": 105
                 },
                 "pointer": true,
                 "kind": 101
@@ -9102,8 +9102,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct IndexerCallbacks",
-                "kind": 1
+                "type": "IndexerCallbacks",
+                "kind": 105
               },
               "name": "IndexerCallbacks",
               "typedef": true,
@@ -9132,8 +9132,8 @@
           "type": {
             "type": {
               "type": {
-                "type": "struct CXTranslationUnitImpl",
-                "kind": 1
+                "type": "CXTranslationUnitImpl",
+                "kind": 105
               },
               "pointer": true,
               "kind": 101
@@ -9161,8 +9161,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXIdxLoc",
-              "kind": 1
+              "type": "CXIdxLoc",
+              "kind": 105
             },
             "name": "CXIdxLoc",
             "typedef": true,
@@ -9260,8 +9260,8 @@
         {
           "type": {
             "type": {
-              "type": "struct CXIdxLoc",
-              "kind": 1
+              "type": "CXIdxLoc",
+              "kind": 105
             },
             "name": "CXIdxLoc",
             "typedef": true,
@@ -9277,8 +9277,8 @@
       "name": "clang_indexLoc_getCXSourceLocation",
       "result": {
         "type": {
-          "type": "struct CXSourceLocation",
-          "kind": 1
+          "type": "CXSourceLocation",
+          "kind": 105
         },
         "name": "CXSourceLocation",
         "typedef": true,
