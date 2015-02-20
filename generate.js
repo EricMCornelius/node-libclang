@@ -41,8 +41,19 @@ function generateArgAccessor(f, a, idx) {
     var typename = t.slice(7);
     t = 'struct';
   }
+  else if(t.indexOf('enum') === 0) {
+    var typename = t.slice(5);
+    t = 'enum';
+    if (typename.indexOf(' ') !== -1 || typename.indexOf('*') !== -1) {
+      t = 'complex';
+    }
+  }
+  else {
+    typename = t;
+  }
 
   switch (t) {
+    case 'unsigned':
     case 'unsigned int':
     case 'unsigned short':
     case 'unsigned char':
@@ -52,6 +63,7 @@ function generateArgAccessor(f, a, idx) {
       rhs += '->IntegerValue();';
       break;
     case 'unsigned long':
+    case 'unsigned long long':
       rhs += '->IntegerValue();';
       break;
     case 'int':
@@ -72,7 +84,7 @@ function generateArgAccessor(f, a, idx) {
       rhs = `  auto ${a.name} = *_${a.name};`;
       break;
     case 'char**':
-      template = 
+      template =
 `  auto _${a.name} = Local<Array>::Cast(${rhs});
   std::vector<std::unique_ptr<NanAsciiString>> _${a.name}_strs;
   std::vector<const char*> _${a.name}_args;
@@ -108,9 +120,9 @@ function generateArgAccessor(f, a, idx) {
       break;
     case 'struct':
       if (typename.indexOf('*') !== -1) {
-        template = 
+        template =
 `
-  auto ${a.name} = ${rhs}->IsObject() ? 
+  auto ${a.name} = ${rhs}->IsObject() ?
     reinterpret_cast<${typename}>(NanGetInternalFieldPointer(${rhs}->ToObject(), 0)) :
     nullptr;
 `;
@@ -124,6 +136,10 @@ function generateArgAccessor(f, a, idx) {
 `
         rhs = '';
       }
+      break;
+    case 'enum':
+      template =`  auto ${a.name} = static_cast<${typename}>(${rhs}->ToInteger()->Value());`;
+      rhs = '';
       break;
     default: {
       rhs += '???' + t + '???';
@@ -159,20 +175,31 @@ function generateReturn(f) {
     var typename = t.slice(7);
     t = 'struct';
   }
+  else if(t.indexOf('enum') === 0) {
+    var typename = t.slice(5);
+    t = 'enum';
+  }
   else {
     typename = t;
   }
 
   switch(t) {
+    case 'unsigned long long':
+    case 'unsigned long':
+    case 'long':
+    case 'long long':
+      template += 'NanReturnValue(NanNew<Number>(res));';
+      break;
+    case 'unsigned':
     case 'unsigned int':
     case 'unsigned short':
     case 'unsigned char':
-    case 'long':
-    case 'unsigned long':
+      template += 'NanReturnValue(NanNew<Uint32>(res));';
+      break;
     case 'int':
     case 'short':
     case 'char':
-      template += 'NanReturnValue(NanNew<Number>(res));'
+      template += 'NanReturnValue(NanNew<Int32>(res));';
       break;
     case 'void':
       template += 'NanReturnNull();';
@@ -189,7 +216,7 @@ function generateReturn(f) {
 `
   auto _handle_instance = NanNew(_handle_constructor)->NewInstance();
   NanSetInternalFieldPointer(_handle_instance, 0, (void*)(res));
-  NanReturnValue(_handle_instance);  
+  NanReturnValue(_handle_instance);
 `;
       }
       else {
@@ -202,6 +229,9 @@ function generateReturn(f) {
   NanReturnValue(_handle_instance);
 `
       }
+      break;
+    case 'enum':
+      template += `NanReturnValue(NanNew<Integer>(static_cast<int32_t>(res)));`;
       break;
     default: {
       template += '???' + t + '???';
@@ -235,6 +265,16 @@ NAN_METHOD(${f.name}_binding) {`);
   return template.join('\n');
 }
 
+function generateEnum(e) {
+  var template = [];
+  template.push(`  auto ${e.name} = NanNew<Object>();`);
+  _.each(e.values, function(val, key) {
+    template.push(`  ${e.name}->ForceSet(NanNew<String>("${key}"), NanNew<Integer>(${key}), static_cast<PropertyAttribute>(ReadOnly | DontDelete));`);
+  });
+  template.push(`  exports->Set(NanNew<String>("${e.name}"), ${e.name});`);
+  return template.join('\n');
+}
+
 function generateExport(f) {
   if (failed_functions[f.name]) {
     return `//TODO: fix ${f.name}`;
@@ -257,10 +297,12 @@ function generatePrototype(f) {
 function generateBinding(info) {
   var methods = info.functions.map(generateMethod).join('\n');
   var exports = info.functions.map(generateExport).join('\n');
+  var enums = info.enums.map(generateEnum).join('\n');
   var src_template = fs.readFileSync(`./${binding}.cc.tmpl`).toString();
   var res = src_template
     .replace('${methods}', methods)
-    .replace('${exports}', exports);
+    .replace('${exports}', exports)
+    .replace('${enums}', enums);
   sourcefile.write(res);
 
   var prototypes = info.functions.map(generatePrototype).join('\n');
